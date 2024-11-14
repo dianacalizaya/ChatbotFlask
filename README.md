@@ -50,8 +50,24 @@ The execution policy helps protect you from scripts that you do not trust. Chang
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): Y
 ```
     
-  ## Activación de entorno virtual
-  - En windows
+  ## Creación y activación de entorno virtual
+Crea el entorno virtual
+```bash
+  python3 -m venv venv
+```
+- Activación en `PoweShell`
+```bash
+  python3 -m venv venv
+```
+- Activación en `cmd`
+```bash
+  .\venv\Scripts\Activate.ps1
+```
+## 💻 Instalar dependencias  
+```bash
+  pip install Flask transformers torch
+```
+El comando `pip install Flask transformers torch` instala las bibliotecas `Flask` (para crear aplicaciones web y APIs), `transformers` (para trabajar con modelos de lenguaje de Hugging Face como DialoGPT), y `torch` (la biblioteca PyTorch necesaria para el procesamiento de redes neuronales y modelos de machine learning) en el entorno de Python actual.
 
 ## 📁 Estructura del Proyecto
  ```bash
