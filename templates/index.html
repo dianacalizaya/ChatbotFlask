@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot de PyDay La P</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <img src="{{ url_for('static', filename='img/snake.webp') }}" alt="PyDay La Paz" class="logo">
+        </div>
+        <div class="column">
+            <div id="chatbox">
+                <h1>PyDay La Paz</h1>
+                <h2>Chatbot</h2>
+                <div id="messages"></div>
+                <input type="text" id="userInput" placeholder="Escribe tu mensaje..." onkeydown="if(event.key === 'Enter') sendMessage()">
+                <button onclick="sendMessage()">Enviar</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        async function sendMessage() {
+            const userInput = document.getElementById('userInput').value;
+            if (userInput.trim() === "") return;  // No enviar mensajes vacíos
+
+            const response = await fetch('/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ message: userInput })
+            });
+            const data = await response.json();
+            const messages = document.getElementById('messages');
+            messages.innerHTML += `<p class="user-message"><strong>Tú:</strong> ${userInput}</p>`;
+            messages.innerHTML += `<p class="bot-message"><strong>Bot:</strong> ${data.response}</p>`;
+            document.getElementById('userInput').value = '';
+            messages.scrollTop = messages.scrollHeight;  // Desplazamiento automático al final
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+[
+    {
+        "pregunta": "¿Cuál es tu nombre?",
+        "respuesta": "Soy un chatbot creado para ayudarte."
+    },
+    {
+        "pregunta": "¿Qué puedes hacer?",
+        "respuesta": "Puedo responder preguntas y mantener una conversación contigo."
+    },
+    {
+        "pregunta": "¿Qué es una variable en programación?",
+        "respuesta": "Una variable en programación es un espacio en la memoria que se utiliza para almacenar un valor que puede cambiar durante la ejecución del programa."
+    },
+    {
+        "pregunta": "¿Qué es Python?",
+        "respuesta": "Python es un lenguaje de programación interpretado, de alto nivel y de propósito general. Su filosofía de diseño enfatiza la legibilidad del código."
+    },
+    {
+        "pregunta": "¿Qué es una función en programación?",
+        "respuesta": "Una función es un bloque de código que realiza una tarea específica y puede ser reutilizado en diferentes partes del programa."
+    },
+    {
+        "pregunta": "¿Qué es un bucle en programación?",
+        "respuesta": "Un bucle es una estructura de control que permite repetir un bloque de código varias veces."
+    },
+    {
+        "pregunta": "¿Qué es una lista en Python?",
+        "respuesta": "Una lista en Python es una colección ordenada y mutable de elementos que pueden ser de diferentes tipos."
+    },
+    {
+        "pregunta": "¿Qué es un diccionario en Python?",
+        "respuesta": "Un diccionario en Python es una colección desordenada de elementos que se almacenan en pares clave-valor."
+    },
+    {
+        "pregunta": "¿Qué es una clase en programación orientada a objetos?",
+        "respuesta": "Una clase es un plano para crear objetos que encapsulan datos y comportamientos relacionados."
+    },
+    {
+        "pregunta": "¿Qué es un objeto en programación orientada a objetos?",
+        "respuesta": "Un objeto es una instancia de una clase que contiene datos y métodos para manipular esos datos."
+    },
+    {
+        "pregunta": "¿Qué es una excepción en programación?",
+        "respuesta": "Una excepción es un evento que ocurre durante la ejecución de un programa y que interrumpe el flujo normal de las instrucciones."
+    },
+    {
+        "pregunta": "¿Qué es un módulo en Python?",
+        "respuesta": "Un módulo en Python es un archivo que contiene definiciones y declaraciones de Python, como funciones, clases y variables, que pueden ser importadas y utilizadas en otros programas."
+    },
+    {
+        "pregunta": "¿Qué es una biblioteca en programación?",
+        "respuesta": "Una biblioteca es una colección de módulos y funciones que pueden ser reutilizados en diferentes programas para realizar tareas comunes."
+    },
+    {
+        "pregunta": "¿Qué es una API?",
+        "respuesta": "Una API (Interfaz de Programación de Aplicaciones) es un conjunto de reglas y protocolos que permite a diferentes programas y servicios comunicarse entre sí."
+    },
+    {
+        "pregunta": "¿Qué es un framework en programación?",
+        "respuesta": "Un framework es una estructura de soporte que proporciona un entorno estándar para el desarrollo de aplicaciones de software."
+    },
+    {
+        "pregunta": "¿Qué es un algoritmo?",
+        "respuesta": "Un algoritmo es una secuencia de pasos bien definidos que resuelven un problema o realizan una tarea específica."
+    },
+    {
+        "pregunta": "¿Qué es la inteligencia artificial?",
+        "respuesta": "La inteligencia artificial es el campo de estudio que se enfoca en crear sistemas capaces de realizar tareas que normalmente requieren inteligencia humana, como el reconocimiento de voz, la toma de decisiones y la traducción de idiomas."
+    },
+    {
+        "pregunta": "¿Qué es el aprendizaje automático?",
+        "respuesta": "El aprendizaje automático es una rama de la inteligencia artificial que se centra en el desarrollo de algoritmos que permiten a las computadoras aprender y hacer predicciones basadas en datos."
+    },
+    {
+        "pregunta": "¿Qué es el aprendizaje profundo?",
+        "respuesta": "El aprendizaje profundo es una subrama del aprendizaje automático que utiliza redes neuronales artificiales con muchas capas para modelar y resolver problemas complejos."
+    },
+    {
+        "pregunta": "¿Qué es una red neuronal?",
+        "respuesta": "Una red neuronal es un modelo computacional inspirado en la estructura y funcionamiento del cerebro humano, compuesto por capas de nodos interconectados que procesan información."
+    }
+]
