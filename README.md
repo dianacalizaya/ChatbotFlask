@@ -67,6 +67,12 @@ Crea el entorno virtual
 ```bash
   pip install Flask transformers torch
 ```
+_verificar que las librerias funcionen bien_
+
+```bash
+  py -m pip install torch sympy
+  py -m pip show torch sympy
+```
 El comando `pip install Flask transformers torch` instala las bibliotecas `Flask` (para crear aplicaciones web y APIs), `transformers` (para trabajar con modelos de lenguaje de Hugging Face como DialoGPT), y `torch` (la biblioteca PyTorch necesaria para el procesamiento de redes neuronales y modelos de machine learning) en el entorno de Python actual.
 
 ## 📁 Estructura del Proyecto
