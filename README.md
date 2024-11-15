@@ -77,14 +77,13 @@ El comando `pip install Flask transformers torch` instala las bibliotecas `Flask
 
 ## 📁 Estructura del Proyecto
  ```bash
-    chatbot/
-├── 
-├── 
-├── .gitignore
-├── README.md
-├── 
-├── templates/
-│   └── index.html
-└── static/
-    └── styles.css
+chatbot/
+│
+├── app.py                    # Archivo principal de la aplicación Flask
+├── knowledge_base.json       # Base de conocimientos en formato JSON
+├── requirements.txt          # Archivo de dependencias
+├── templates/                # Carpeta para archivos HTML
+│   └── index.html            # Archivo HTML principal
+└── static/                   # Carpeta para archivos estáticos (CSS, JS, imágenes)
+    └── styles.css            # Archivo CSS para estilizar la aplicación
     ```
