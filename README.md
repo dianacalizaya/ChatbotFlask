@@ -27,30 +27,30 @@ Este proyecto implementa un chatbot utilizando el modelo `DialoGPT-medium` de Hu
     cd chatbot
     ```
 2. Verifica la versión de `pip`
-      ```bash
+   ```bash
     pip --version
     ```
 3. Actualiza `pip`
-```bash
-  python -m pip install --upgrade pip
-```
+    ```bash
+      python -m pip install --upgrade pip
+    ```
 4. Asegúrate de tener permisos para ejecitar scripts en `PowerShell`
-```bash
-  Get-ExecutionPolicy
-```
+    ```bash
+      Get-ExecutionPolicy
+    ```
 5. Cambiar la política de ejecución de scripts a `RemoteSigned`
-```bash
-  Set-ExecutionPolicy RemoteSigned
-```
+    ```bash
+      Set-ExecutionPolicy RemoteSigned
+    ```
 - Acepta el cambio en la política
-```bash
-  PS C:\> Set-ExecutionPolicy RemoteSigned
-Execution Policy Change
-The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose you to the security risks described in the about_Execution_Policies help topic at https://go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy?
-[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): Y
-```
-    
-  ## Creación y activación de entorno virtual
+    ```bash
+      PS C:\> Set-ExecutionPolicy RemoteSigned
+    Execution Policy Change
+    The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose you to the security risks described in the about_Execution_Policies help topic at https://go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy?
+    [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): Y
+    ```
+
+## Creación y activación de entorno virtual
 Crea el entorno virtual
 ```bash
   python3 -m venv venv
@@ -67,7 +67,7 @@ Crea el entorno virtual
 ```bash
   pip install Flask transformers torch
 ```
-_verificar que las librerias funcionen bien_
+_verificar que las librerias funcionen bien, algunas necesitan un a integración completa para su funcionamiento_
 
 ```bash
   py -m pip install torch sympy
