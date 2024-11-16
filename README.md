@@ -26,19 +26,11 @@ Este proyecto implementa un chatbot utilizando el modelo `DialoGPT-medium` de Hu
     mkdir chatbot
     cd chatbot
     ```
-2. Verifica la versión de `pip`
-   ```bash
-    pip --version
-    ```
-3. Actualiza `pip`
-    ```bash
-      python -m pip install --upgrade pip
-    ```
-4. Asegúrate de tener permisos para ejecitar scripts en `PowerShell`
+2. Asegúrate de tener permisos para ejecitar scripts en `PowerShell`
     ```bash
       Get-ExecutionPolicy
     ```
-5. Cambiar la política de ejecución de scripts a `RemoteSigned`
+3. Cambiar la política de ejecución de scripts a `RemoteSigned`
     ```bash
       Set-ExecutionPolicy RemoteSigned
     ```
@@ -49,7 +41,6 @@ Este proyecto implementa un chatbot utilizando el modelo `DialoGPT-medium` de Hu
     The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose you to the security risks described in the about_Execution_Policies help topic at https://go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy?
     [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): Y
     ```
-
 ## Creación y activación de entorno virtual
 Crea el entorno virtual
 ```bash
@@ -64,6 +55,15 @@ Crea el entorno virtual
   .\venv\Scripts\Activate.ps1
 ```
 ## 💻 Instalar dependencias  
+Verifica la versión de `pip`
+ ```bash
+    pip --version
+ ```
+Actualiza `pip`
+```bash
+    python -m pip install --upgrade pip
+```
+Instala las dependencias necesarias
 ```bash
   pip install Flask transformers torch
 ```
